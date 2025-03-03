@@ -1,15 +1,17 @@
 <template>
   <footer class="bg-dark text-white py-3 mt-5">
-    <section id="contact" class="container d-flex justify-content-between align-items-center">
+    <section id="contact" class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
 
-      <div class="text-center d-flex flex-column align-items-center w-75">
-        <p class="mb-3" style="margin-left: 350px">FALE COMIGO!</p>
-        <div class="d-grid col-6" style="margin-left: 350px">
+      <!-- Bloco de contato -->
+      <div class="text-center d-flex flex-column align-items-center w-100 w-md-75 mb-3 mb-md-0">
+        <p class="mb-3">FALE COMIGO!</p>
+        <div class="d-grid col-8 col-md-6 mx-auto">
           <button type="button" class="btn btn-pink" @click="sendEmail">Enviar e-mail</button>
         </div>
       </div>
 
-      <div class="social-icons d-flex gap-3 justify-content-end w-25">
+      <!-- Ícones sociais -->
+      <div class="social-icons d-flex gap-3 justify-content-center justify-content-md-end w-100 w-md-25">
         <a href="https://github.com/maraysamacedo" target="_blank" class="bi bi-github text-white fs-3"></a>
         <a href="https://www.linkedin.com/in/maraysamacedo/" target="_blank" class="bi bi-linkedin text-white fs-3"></a>
       </div>
@@ -28,7 +30,30 @@
 .btn-pink:hover {
   background-color: #e60073;
 }
+
+@media (max-width: 768px) {
+  /* Ajuste para telas menores */
+  .text-center p {
+    font-size: 1.5rem; /* Tamanho de texto ajustado em telas menores */
+  }
+
+  .social-icons {
+    justify-content: center; /* Garante que os ícones fiquem centralizados em telas pequenas */
+  }
+}
+
+@media (max-width: 576px) {
+  /* Ajuste para telas ainda menores */
+  .text-center p {
+    font-size: 1.2rem; /* Ajuste de tamanho da fonte para telas muito pequenas */
+  }
+
+  .social-icons a {
+    font-size: 2rem; /* Ícones sociais menores em telas muito pequenas */
+  }
+}
 </style>
+
 <script>
 export default {
   methods: {
