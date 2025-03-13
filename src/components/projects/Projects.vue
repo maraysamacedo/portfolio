@@ -91,7 +91,7 @@ const cards = ref([
   {
     src: new URL('../../assets/Projeto POWER BI  Dashboard DRE.gif', import.meta.url).href,
     alt: 'Imagem 5',
-    title: 'Projeto 5',
+    title: 'Dashboard DRE',
     description: 'Projeto em Power BI para visualização interativa do DRE, permitindo análise detalhada de receitas, despesas e lucros para facilitar decisões financeiras. Utiliza DAX para cálculos dinâmicos e Power Query para transformação e limpeza de dados.',
     link: 'https://github.com/maraysamacedo/dashboarddre',
   },
