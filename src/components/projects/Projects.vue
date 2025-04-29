@@ -75,11 +75,11 @@ const cards = ref([
     link: 'https://github.com/maraysamacedo/previsaoscoreIA',
   },
   {
-    src: new URL('../../assets/POWERBI_Finanças.gif', import.meta.url).href,
+    src: new URL('../../assets/POWER BI_CYBERSECURITY.gif', import.meta.url).href,
     alt: 'Imagem 3',
-    title: 'Dashboard Finanças',
-    description: 'Dashboard de análises financeiras, integrando dados de receitas, despesas e KPIS para visualização interativa. Permite o acompanhamento em tempo real da saúde financeira de uma organização, oferecendo insights valiosos para tomada de decisão.',
-    link: 'https://github.com/maraysamacedo/dashfinancas',
+    title: 'Análise sobre Ameaças de Cybersegurança 2015-2024',
+    description: 'Análise de ameaças cibernéticas globais entre 2015 e 2024. Ele inclui scripts SQL para ETL (extração, transformação e carga) e visualizações de dados no Power BI. O processo é dividido em três etapas principais: criação de banco de dados, importação de dados, e criação de views analíticas. O dataset é extraído do Kaggle e é utilizado para gerar insights visuais e analíticos. O repositório também contém orientações e documentação técnica para reproduzir a análise. ',
+    link: 'https://github.com/maraysamacedo/threats-cybersecurity',
   },
   {
     src: new URL('../../assets/Cadastro_automatizado.png', import.meta.url).href,
@@ -96,11 +96,11 @@ const cards = ref([
     link: 'https://github.com/maraysamacedo/dre2019',
   },
   {
-    src: new URL('../../assets/POWERBI_Projetos.gif', import.meta.url).href,
-    alt: 'Imagem 6',
-    title: 'Dashboard Projetos',
-    description: 'Oferece uma análise interativa de dados de gestão de projetos, com foco em monitorar progresso, status e desempenho de iniciativas, utilizando KPIs para facilitar a tomada de decisões estratégicas.',
-    link: 'https://github.com/maraysamacedo/dashboardprojetos',
+    src: new URL('../../assets/POWERBI_Finanças.gif', import.meta.url).href,
+    alt: 'Imagem 3',
+    title: 'Dashboard Finanças',
+    description: 'Dashboard de análises financeiras, integrando dados de receitas, despesas e KPIS para visualização interativa. Permite o acompanhamento em tempo real da saúde financeira de uma organização, oferecendo insights valiosos para tomada de decisão.',
+    link: 'https://github.com/maraysamacedo/dashfinancas',
   },
   {
     src: new URL('../../assets/POWERBI_RH.gif', import.meta.url).href,

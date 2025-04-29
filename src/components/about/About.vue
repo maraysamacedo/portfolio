@@ -20,15 +20,15 @@
         
         <!-- Lista de habilidades com ênfase em palavras-chave SEO -->
         <ul class="text-light">
-          <li><strong>Ferramentas de Análise de Dados:</strong> Python, R, SQL</li>
+          <li><strong>Ferramentas de Análise de Dados:</strong> Python, SQL</li>
           <li><strong>Experiência em Banco de Dados:</strong> SQL Server, MySQL</li>
-          <li><strong>Visualização de Dados:</strong> Power BI, Tableau</li>
+          <li><strong>Visualização de Dados:</strong> Power BI</li>
           <li><strong>Desenvolvimento e Processamento de Dados:</strong> Python, Pandas, NumPy</li>
         </ul>
 
         <!-- Link para contato ou portfólio -->
         <p class="text-light">
-          <a href="#portfolio" class="text-decoration-none" style="color: #ff4081;">Veja meu portfólio de projetos em análise de dados aqui.</a>
+          <a href="#portfolio" class="text-decoration-none" style="color: #ff4081;"></a>
         </p>
       </div>
     </div>
