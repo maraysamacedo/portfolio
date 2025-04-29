@@ -78,7 +78,7 @@ const cards = ref([
     src: new URL('../../assets/POWER BI_CYBERSECURITY.gif', import.meta.url).href,
     alt: 'Imagem 3',
     title: 'Análise sobre Ameaças de Cybersegurança 2015-2024',
-    description: 'Análise de ameaças cibernéticas globais entre 2015 e 2024. Ele inclui scripts SQL para ETL (extração, transformação e carga) e visualizações de dados no Power BI. O processo é dividido em três etapas principais: criação de banco de dados, importação de dados, e criação de views analíticas. O dataset é extraído do Kaggle e é utilizado para gerar insights visuais e analíticos. O repositório também contém orientações e documentação técnica para reproduzir a análise. ',
+    description: 'O projeto inclui scripts SQL para ETL (extração, transformação e carga) e visualizações de dados no Power BI. O processo é dividido em três etapas principais: criação de banco de dados, importação de dados e criação de views analíticas. O dataset é extraído do Kaggle e é utilizado para gerar insights visuais e analíticos. O repositório também contém orientações e documentação técnica para reproduzir a análise. ',
     link: 'https://github.com/maraysamacedo/threats-cybersecurity',
   },
   {
